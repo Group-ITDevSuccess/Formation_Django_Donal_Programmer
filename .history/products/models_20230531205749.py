@@ -4,5 +4,5 @@ from django.db import models
 
 class Product(models.Model):
     name = models.CharField(max_length=150)
-    price = models.DecimalField(max_digits=999_000_000_000, decimal_places=2)
+    price = models.DecimalField(decimal_places=2)
     description = models.TextField()
