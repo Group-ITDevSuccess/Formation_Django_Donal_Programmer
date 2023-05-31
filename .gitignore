@@ -1,0 +1,51 @@
+# Environnement virtuel
+venv/
+
+# Fichiers spécifiques à l'IDE (exemple: PyCharm)
+.idea/
+
+# Fichiers de migration de la base de données
+**/migrations/
+
+# Fichier de base de données SQLite
+*.sqlite3
+
+# Fichiers de sauvegarde de Django
+*.log
+*.pot
+*.pyc
+__pycache__/
+
+# Fichiers statiques générés
+staticfiles/
+
+# Dossier contenant les fichiers téléchargés par les utilisateurs
+media/
+
+# Fichiers de configuration locaux
+local_settings.py
+
+# Fichiers générés par des outils tiers
+.env
+
+# Fichiers de sauvegarde (ex: fichiers avec l'extension .bak)
+*.bak
+
+# Dossiers spécifiques à certains déploiements
+# (ajoutez les dossiers spécifiques à votre déploiement)
+/deploy/
+
+# Fichiers de documentation générés
+/docs/_build/
+
+# Fichiers de test
+/.pytest_cache/
+
+# Fichiers de cache générés par des bibliothèques tierces
+__pycache__/
+.cache/
+
+# Fichiers de configuration pour des outils tiers
+*.yml
+*.ini
+*.cfg
